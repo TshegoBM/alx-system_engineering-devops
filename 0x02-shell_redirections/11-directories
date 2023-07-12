@@ -1,3 +1,2 @@
 #!/bin/bash
-find . -type d -not -path '*/\.*' -printf '.' | wc -c
-
+find . -type f -name "*.js" -delete
